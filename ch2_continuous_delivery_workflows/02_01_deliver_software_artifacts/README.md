@@ -13,13 +13,13 @@
 
 ## Supported Package Build and Publish Commands
 
-| Language / Platform | Build Command        | Publish Command            |
-|---------------------|----------------------|----------------------------|
-| Java                | mvn package          | mvn deploy                 |
-| JavaScript          | npm ci               | npm publish                |
-| Ruby                | gem build            | gem push                   |
-| .NET                | dotnet pack          | dotnet nuget push          |
-| Docker              | docker build         | docker push                |
+| Language / Platform | Build Command | Publish Command |
+|---------------------|---------------|-----------------|
+| Java                | mvn package   | mvn deploy      |
+| JavaScript          | npm ci        | npm publish     |
+| Ruby                | gem build     | gem push        |
+| .NET                | dotnet pack   |dotnet nuget push|
+| Docker              | docker build  | docker push     |
 
 ## References
 
