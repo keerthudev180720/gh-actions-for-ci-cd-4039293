@@ -9,7 +9,7 @@
 01_05 Challenge: Build a CI Workflow for a Python Project
 01_06 Solution: Build a CI Workflow for a Python Project
 02_01 Deliver Software artifacts and Packages
-02_02 Build and Publish a Java Package
+02_02 Build and Publish a Software Package
 02_03 Build and Publish a Container Image
 02_04 Challenge: Develop a Container Image Workflow
 02_05 Solution: Develop a Container Image Workflow
