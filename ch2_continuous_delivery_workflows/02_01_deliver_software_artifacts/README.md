@@ -1,5 +1,10 @@
 # 02_01 Deliver Software artifacts and Packages
 
+## References
+
+- [Working with a GitHub Packages registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry)
+- [About permissions for GitHub Packages](https://docs.github.com/en/packages/learn-github-packages/about-permissions-for-github-packages#about-scopes-and-permissions-for-package-registries)
+
 <!-- FooterStart -->
 ---
 [← 01_06 Solution: Build a CI Workflow for a Python Project](../../ch1_continous_integration_workflows/01_06_solution_build_a_ci_workflow_for_a_python_project/README.md) | [02_02 Build and Publish a Java Package →](../02_02_build__publish_a_java_package/README.md)
