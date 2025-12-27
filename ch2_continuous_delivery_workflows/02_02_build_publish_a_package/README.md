@@ -43,7 +43,7 @@ Update code to reference a new version number with each new release.
 - [Working with a GitHub Packages registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry)
 - [actions/setup-java on GitHub Marketplace](https://github.com/marketplace/actions/setup-java-jdk)
 - [actions/checkout on GitHub Marketplace](https://github.com/marketplace/actions/checkout)
-- [The updated workflow for this lesson](.github/workflows/maven-publish.yml.txt)
+- [The updated workflow for this lesson](maven-publish.yml)
 
 ## Lab: Publishing a Java Package to GitHub Packages with Maven
 
