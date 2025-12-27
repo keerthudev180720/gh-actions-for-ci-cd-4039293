@@ -1,3 +1,6 @@
+APP = $(notdir $(CURDIR))
+TAG = $(shell echo "$$(date +%F)-$$(git rev-parse --short HEAD)")
+
 PORT = 3000
 NAME = python-api
 PYTHON_VERSION = $(shell python3 --version | cut -d' ' -f2 | cut -d'.' -f1,2)
