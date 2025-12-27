@@ -201,5 +201,5 @@ Before starting, make sure that:
 
 <!-- FooterStart -->
 ---
-[← 02_01 Deliver Software artifacts and Packages](../02_01_deliver_software_artifacts/README.md) | [02_03 Build and Publish a Container Image →](../02_03_build_publish_a_container_image/README.md)
+[← 02_01 Deliver Software artifacts and Packages](../02_01_deliver_software_artifacts/README.md) | [02_02 Extra Content 1: Build and Publish a JavaScript Package →](../02_02_xtra_01_javascript_package/README.md)
 <!-- FooterEnd -->
