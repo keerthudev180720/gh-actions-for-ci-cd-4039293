@@ -1,0 +1,31 @@
+{
+  "name": "@OWNER/currency-converter",
+  "version": "0.0.0",
+  "description": "A simple currency converter demonstrating npm build process",
+  "main": "src/currency-converter.js",
+  "scripts": {
+    "test": "jest",
+    "demo": "node src/currency-converter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OWNER/REPO.git"
+  },
+  "keywords": [
+    "currency",
+    "converter",
+    "exchange",
+    "rates"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

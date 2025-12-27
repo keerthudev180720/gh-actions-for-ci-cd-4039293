@@ -36,7 +36,7 @@ The configuration files for a package also define a version number for the packa
 > [!IMPORTANT]
 > Version numbers can't be reused.
 
-Update code to reference a new version number with each new release.
+Update code to reference a new version number with each new release. In GitHub Actions workflows, you can use the `GITHUB_RUN_NUMBER` environment variable to generate unique versions.
 
 ## References
 
