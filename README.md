@@ -41,6 +41,8 @@ The goal of this course is to explore the different features of GitHub Actions f
 [lil-course-url]: https://www.linkedin.com/learning/
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
 
+TODO: Add completed workflows as text files to the ch1 sections; link to the completed workflows from README file for the section.
+
 <!-- FooterStart -->
 ---
 [00_01 Jumpstart Your CI/CD with Github actions →](ch0_introduction/00_01_jumpstart_your_cicd_with_github_actions/README.md)

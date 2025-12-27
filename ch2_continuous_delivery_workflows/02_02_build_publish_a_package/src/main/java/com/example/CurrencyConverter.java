@@ -100,6 +100,6 @@ public class CurrencyConverter {
             System.out.printf("%s %s = %s %s%n", amount, from, result, to);
         }
 
-        System.out.println("\nBuild completed successfully with Maven!");
+        System.out.println("\nConversions complete.");
     }
 }
