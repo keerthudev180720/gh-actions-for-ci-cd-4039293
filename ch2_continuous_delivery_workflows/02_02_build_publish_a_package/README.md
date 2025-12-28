@@ -197,8 +197,6 @@ Before starting, make sure that:
 1. Look for the **Packages** section.
 1. Select the published package.
 
-```
-
 <!-- FooterStart -->
 ---
 [← 02_01 Deliver Software artifacts and Packages](../02_01_deliver_software_artifacts/README.md) | [02_03 Build and Publish a Container Image →](../02_03_build_publish_a_container_image/README.md)

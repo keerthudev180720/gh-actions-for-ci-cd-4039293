@@ -96,15 +96,15 @@ The integration workflow is initially included at the root of the project.
 
 After adding the exercise files to your repo, rename the integration workflow file from:
 
-   ```yaml
-   python-ci-workflow.yml
-   ```
+```yaml
+python-ci-workflow.yml
+```
 
 to
 
-   ```yaml
-   .github/workflows/python-ci-workflow.yml
-   ```
+```yaml
+.github/workflows/python-ci-workflow.yml
+```
 
 This location is required so other workflows can reference it correctly.
 
