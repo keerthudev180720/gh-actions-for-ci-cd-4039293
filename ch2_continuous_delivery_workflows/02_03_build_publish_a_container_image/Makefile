@@ -34,6 +34,15 @@ test:
 	@echo "$(GREEN)Running tests...$(NC)"
 	@$(TEST)
 
+build:
+	@echo "$(GREEN)Building container image...$(NC)"
+	@docker build -t $(APP):$(TAG) -t $(APP):latest .
+	@echo "$(GREEN)Container image built: $(APP):$(TAG)$(NC)"
+
+container-run:
+	@echo "$(GREEN)Running container...$(NC)"
+	@docker run --rm -p $(PORT):$(PORT) $(APP):latest
+
 run:
 	$(RUN)
 
@@ -49,4 +58,4 @@ clean:
 	@find . -type d -name "htmlcov" -exec rm -r {} + 2>/dev/null || true
 	@echo "$(GREEN)Clean complete$(NC)"
 
-.PHONY: setup fmt lint test run clean all
+.PHONY: setup fmt lint test build container-run run clean all
