@@ -50,7 +50,7 @@ To ensure delivery steps only run after integration completes successfully, defi
 
 - Integration logic runs once and is reused everywhere
 - Delivery workflows stay small and focused on publishing
--Sofware packages and container images are only built and pushed after tests pass
+- Software packages and container images are only built and pushed after tests pass
 
 ## References
 
@@ -61,7 +61,7 @@ To ensure delivery steps only run after integration completes successfully, defi
 - [docker/build-push-action on GitHub Marketplace](https://github.com/marketplace/actions/build-and-push-docker-images)
 - [actions/checkout on GitHub Marketplace](https://github.com/marketplace/actions/checkout)
 
-## Lab: Create a Continuous Delivery Workflow for a Contianer Image
+## Lab: Create a Continuous Delivery Workflow for a Container Image
 
 In this lab, you’ll create a continuous delivery workflow that **reuses an existing integration workflow** before building and publishing a container image. The goal is to ensure integration tests always run—and pass—before a container image is pushed to GitHub Packages.
 
@@ -234,7 +234,7 @@ Followed by the path to the workflow file:
 
 If you wanted to use a workflow from another repo, we’d need to add the repo name, the path to the file, AND a github reference.
 
-- TODO: add refernce to a workflow in another repo
+- TODO: add reference to a workflow in another repo
 
 <!-- FooterStart -->
 ---
