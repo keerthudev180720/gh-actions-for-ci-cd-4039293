@@ -31,3 +31,5 @@ jobs:
       working-directory: ch1_integration/01_02_ci_for_javascript
     - run: npm run build --if-present
     - run: npm test
+      working-directory: ch1_integration/01_02_ci_for_javascript
+    
